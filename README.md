@@ -35,11 +35,24 @@ Bu repository, **Java** dili kullanılarak geliştirilmiş **Cucumber BDD (Behav
 └── src
 └── test
 ├── java # Java ile yazılmış test kodları
-│ ├── runners # Testlerin çalıştırıldığı Cucumber Runner sınıfları
+│ ├── runners # Testlerin çalıştırıldığı Cucumber Runner classları
 │ ├── stepdefinitions # Feature dosyalarındaki adımların Java karşılıkları
-│ └── utilities # Yardımcı sınıflar ve ortak kullanım kodları
+│ └── utilities # Yardımcı classlar ve ortak kullanım kodları
 └── resources
 └── features # Gherkin (.feature) dosyaları
 ```
+
+---
+
+## 📘 Feature ve Step Definitions
+
+Projedeki test senaryoları *.feature* uzantılı dosyalarda yazılır. Bu dosyalar, uygulamanın davranışlarını açık bir şekilde tanımlayan BDD senaryolarını içerir. Ardından bu senaryolardaki her bir adım (Given, When, Then) *Java step definition* classlarında uygulanır.
+
+---
+
+## ⚙️ configuration.properties
+
+Proje içinde kullanılan yapılandırma değerleri (örneğin base URL, environment ayarları vs) configuration.properties dosyasında tutulur. Bu sayede testler farklı ortamlar için kolayca düzenlenebilir.
+Bu değerler proje genelinde referans alınarak kullanılır.
 
 ---
