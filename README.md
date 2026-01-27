@@ -56,3 +56,32 @@ Proje içinde kullanılan yapılandırma değerleri (örneğin base URL, environ
 Bu değerler proje genelinde referans alınarak kullanılır.
 
 ---
+
+## 🚀 Projeyi Çalıştırma
+ ### 🧩 Ön Gereksinimler
+ * Java JDK 8 veya üzeri
+ * Maven
+ * Git
+ * IntelliJ IDEA veya Eclipse IDE
+ 
+ ---
+ 
+ ## 📌 Kurulum ve Çalıştırma
+ 
+ Repository'i klonlayın:
+ 
+ 
+⁠  git clone https://github.com/IpekSozbir/TestAutomationWithCucumber.git
+  ⁠
+ 
+ Maven ile testleri çalıştırın:
+ 
+⁠  mvn clean test
+  ⁠
+ 
+ Belirli tag ile testleri çalıştırmak isterseniz:
+ 
+⁠  mvn clean test -Dcucumber.filter.tags="@regression"
+  ⁠
+ 
+ ---
