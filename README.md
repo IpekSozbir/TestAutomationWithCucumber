@@ -91,6 +91,14 @@ Bu değerler proje genelinde referans alınarak kullanılır.
  Maven ile testler çalıştırıldığında, Cucumber'ın default raporlama araçları test sonuçlarını oluşturur. Bu raporlar target/ klasörü altında yer alır. İleri seviye raporlar için Allure veya benzeri raporlama araçları entegre edilebilir.
  
  ---
+
+ ## 📎 Notlar
+ 
+ * Bu proje BDD test otomasyonu içermektedir.
+ * UI testleri içeren Selenium yapısı bulunabilir veya eklenti ile genişletilebilir.
+ * Yeni senaryolar ve step definition'lar eklenerek framework genişletilebilir.
+ 
+ ---
  
  ## 📌 Projenin Sağladıkları
  
