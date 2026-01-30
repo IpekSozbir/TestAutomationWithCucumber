@@ -92,6 +92,15 @@ Bu değerler proje genelinde referans alınarak kullanılır.
  
  ---
 
+ ## 📌 Projenin Sağladıkları
+ 
+ * Okunabilir BDD formatında testler
+ * Maven ile merkezi test ve bağımlılık yönetimi
+ * Adım adım Gherkin senaryoları ile test dokümantasyonu
+ * Geliştirilebilir framework yapısı
+
+ ---
+
  ## 📎 Notlar
  
  * Bu proje BDD test otomasyonu içermektedir.
@@ -99,10 +108,6 @@ Bu değerler proje genelinde referans alınarak kullanılır.
  * Yeni senaryolar ve step definition'lar eklenerek framework genişletilebilir.
  
  ---
- 
- ## 📌 Projenin Sağladıkları
- 
- * Okunabilir BDD formatında testler
- * Maven ile merkezi test ve bağımlılık yönetimi
- * Adım adım Gherkin senaryoları ile test dokümantasyonu
- * Geliştirilebilir framework yapısı
+ ## 📝 Lisans
+
+Bu proje kişisel eğitim ve portföy amaçlıdır.
