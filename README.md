@@ -111,3 +111,21 @@ Bu değerler proje genelinde referans alınarak kullanılır.
  ## 📝 Lisans
 
 Bu proje kişisel eğitim ve portföy amaçlıdır.
+
+ ---
+
+# 🌐 TestAutomationWithCucumber
+
+This repository contains a *test automation framework* developed using *Java* with the *Cucumber BDD (Behavior Driven Development)* approach. Test scenarios are defined in ⁠ .feature ⁠ files written in *Gherkin, and the steps of these scenarios are mapped with **Java step definitions* to create automated tests. Thanks to this structure, tests are developed in a way that is both readable and sustainable.
+
+---
+
+## 🎯 Project Purpose
+
+•⁠  ⁠Writing test scenarios using the BDD approach  
+•⁠  ⁠Automating UI tests with *Cucumber*  
+•⁠  ⁠Producing test documentation that can be read by both business and technical teams using Gherkin  
+•⁠  ⁠Managing dependencies and test structure with Maven  
+•⁠  ⁠Ensuring that tests are executed in an easy-to-run structure  
+
+---
