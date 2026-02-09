@@ -206,3 +206,14 @@ When tests are executed with Maven, Cucumber’s default reporting tools generat
 •⁠  ⁠Centralized test and dependency management with Maven
 •⁠  ⁠Test documentation with step-by-step Gherkin scenarios
 •⁠  ⁠Extensible framework structure
+
+
+## 📎 Notes
+This project includes BDD test automation.
+A Selenium-based structure for UI tests may exist or can be extended via plugins.
+The framework can be expanded by adding new scenarios and step definitions.
+
+---
+
+## 📝 License
+This project is intended for personal education and portfolio purposes.
